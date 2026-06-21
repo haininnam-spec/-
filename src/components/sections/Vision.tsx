@@ -41,7 +41,7 @@ export function Vision() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {visions.map((vision, index) => (
-            <Card key={index} className="bg-zinc-800/50 border-zinc-700/50 backdrop-blur-sm text-white">
+            <Card key={index} className="bg-zinc-800/50 border-zinc-700/50 backdrop-blur-sm text-white hover:bg-zinc-800 transition-colors">
               <CardHeader>
                 <div className="mb-4 bg-white/10 w-16 h-16 rounded-2xl flex items-center justify-center">
                   {vision.icon}
@@ -57,11 +57,22 @@ export function Vision() {
           ))}
         </div>
 
-        <div className="mt-20 pt-10 border-t border-zinc-800 text-center">
-          <p className="text-xl md:text-2xl font-light italic text-zinc-300 max-w-4xl mx-auto leading-relaxed">
-            "현장에서 쌓아온 30년의 기술적 전문성과, 문제를 스스로 코드로 풀어낸 실행력, 
-            그리고 사람을 키우는 리더십이 만나는 지점에서 <strong className="text-kogas-beige font-bold">다음 성장</strong>을 만들겠습니다."
-          </p>
+        <div className="mt-20 pt-10 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-center gap-8">
+          <div className="w-32 h-32 md:w-48 md:h-48 relative flex-shrink-0">
+            <div className="absolute inset-0 bg-kogas-beige/10 rounded-full blur-xl animate-pulse" />
+            <img 
+              src="/gas-doongi-cool.png" 
+              alt="비전을 제시하는 가스둥이" 
+              className="relative z-10 w-full h-full object-contain drop-shadow-[0_10px_20px_rgba(255,255,255,0.1)]" 
+            />
+          </div>
+          <div className="text-center md:text-left">
+            <p className="text-xl md:text-2xl font-light italic text-zinc-300 max-w-3xl leading-relaxed">
+              "현장에서 쌓아온 30년의 기술적 전문성과, 문제를 스스로 코드로 풀어낸 실행력, 
+              그리고 사람을 키우는 리더십이 만나는 지점에서 <br className="hidden md:block"/>
+              <strong className="text-kogas-beige font-bold text-2xl md:text-3xl inline-block mt-2">다음 성장을 만들겠습니다.</strong>"
+            </p>
+          </div>
         </div>
       </div>
     </section>

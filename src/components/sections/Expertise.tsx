@@ -1,4 +1,4 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Search, PenTool, Cpu, Activity } from "lucide-react";
 
@@ -31,9 +31,9 @@ export function Expertise() {
   ];
 
   return (
-    <section className="py-24 px-4 bg-white dark:bg-zinc-950">
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+    <section className="py-24 px-4 bg-white dark:bg-zinc-950 relative overflow-hidden">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16 relative z-10">
           <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 dark:text-white mb-4">
             현장에서 시작해 <span className="text-kogas-blue">숫자로 증명한 신뢰</span>
           </h2>
@@ -42,31 +42,44 @@ export function Expertise() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {skills.map((skill, index) => (
-            <Card key={index} className="border-kogas-gray/20 dark:border-zinc-800 shadow-sm hover:shadow-md transition-shadow">
-              <CardHeader className="flex flex-row items-center gap-4 pb-2">
-                <div className="p-3 bg-kogas-offwhite dark:bg-zinc-900 rounded-lg">
-                  {skill.icon}
-                </div>
-                <div>
-                  <CardTitle className="text-xl font-bold">{skill.title}</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-zinc-600 dark:text-zinc-400 mb-6 leading-relaxed">
-                  {skill.description}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {skill.tags.map(tag => (
-                    <Badge key={tag} variant="secondary" className="bg-kogas-offwhite text-zinc-800 hover:bg-kogas-beige dark:bg-zinc-800 dark:text-zinc-300">
-                      {tag}
-                    </Badge>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          ))}
+        <div className="flex flex-col lg:flex-row gap-12 items-center">
+          {/* Character Image Left */}
+          <div className="hidden lg:flex w-1/3 justify-center relative">
+            <div className="absolute inset-0 bg-kogas-beige/20 rounded-full blur-3xl animate-pulse" />
+            <img 
+              src="/gas-doongi-cool.png" 
+              alt="가스둥이 전문성" 
+              className="w-full max-w-md object-contain z-10 drop-shadow-xl" 
+            />
+          </div>
+
+          {/* Cards Right */}
+          <div className="w-full lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10">
+            {skills.map((skill, index) => (
+              <Card key={index} className="border-kogas-gray/20 dark:border-zinc-800 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                <CardHeader className="flex flex-row items-center gap-4 pb-2">
+                  <div className="p-3 bg-kogas-offwhite dark:bg-zinc-900 rounded-lg">
+                    {skill.icon}
+                  </div>
+                  <div>
+                    <CardTitle className="text-lg font-bold">{skill.title}</CardTitle>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-6 leading-relaxed">
+                    {skill.description}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {skill.tags.map(tag => (
+                      <Badge key={tag} variant="secondary" className="bg-kogas-offwhite text-zinc-800 hover:bg-kogas-beige dark:bg-zinc-800 dark:text-zinc-300">
+                        {tag}
+                      </Badge>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
       </div>
     </section>

@@ -50,22 +50,28 @@ export function Leadership() {
           </div>
           
           <div className="md:w-1/2 w-full">
-            <div className="relative aspect-square md:aspect-[4/3] rounded-2xl overflow-hidden bg-kogas-offwhite dark:bg-zinc-900 border-2 border-kogas-gray/20 flex items-center justify-center p-8 text-center group">
+            <div className="relative aspect-square md:aspect-[4/3] rounded-2xl overflow-hidden bg-kogas-offwhite dark:bg-zinc-900 border-2 border-kogas-gray/20 flex items-center justify-center p-4 group">
               <div className="absolute inset-0 bg-kogas-blue/5 group-hover:bg-kogas-blue/10 transition-colors z-0"></div>
               
-              <div className="relative z-10 flex flex-col items-center w-full h-full justify-center">
+              {/* Golf Mechanics Image Background */}
+              <div className="absolute inset-4 rounded-xl overflow-hidden z-10 shadow-lg">
                 <img 
-                  src="/gas-doongi-cool.png" 
-                  alt="가스둥이 리더십" 
-                  className="w-full h-full object-contain drop-shadow-[0_20px_40px_rgba(59,130,246,0.4)] transition-transform duration-700 hover:scale-105 hover:drop-shadow-[0_30px_60px_rgba(59,130,246,0.6)]" 
+                  src="https://images.unsplash.com/photo-1535139262971-c5184570f817?auto=format&fit=crop&q=80&w=800" 
+                  alt="Golf Mechanics" 
+                  className="w-full h-full object-cover opacity-80 mix-blend-overlay dark:mix-blend-normal dark:opacity-40 transition-transform duration-700 group-hover:scale-105"
                 />
-                <div id="fallback-text" className="hidden">
-                  <Badge className="mb-4 bg-white text-kogas-blue border-kogas-blue/20 hover:bg-kogas-offwhite">사진 자리 (Image Placeholder)</Badge>
-                  <p className="text-sm text-zinc-500 max-w-[250px]">
-                    이곳에 제공해주신 가스둥이 캐릭터 이미지나 현장 사진을 배치하면 좋습니다.
-                    (public 폴더에 gas-doongi.png 파일을 넣어주세요)
-                  </p>
+                <div className="absolute bottom-4 left-4">
+                  <Badge className="bg-zinc-900/80 text-white backdrop-blur-sm border-none">메카닉 골프 (Mechanics Golf)</Badge>
                 </div>
+              </div>
+
+              {/* Character Overlay */}
+              <div className="relative z-20 flex flex-col items-center justify-center w-full h-full">
+                <img 
+                  src="/gas-doongi.gif" 
+                  alt="가스둥이 리더십" 
+                  className="w-48 md:w-64 object-contain drop-shadow-[0_20px_40px_rgba(59,130,246,0.6)] transition-transform duration-700 hover:-translate-y-4" 
+                />
               </div>
             </div>
           </div>
