@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+﻿import { Button } from "@/components/ui/button";
 
 export function Header() {
   return (
@@ -7,7 +7,7 @@ export function Header() {
         <div className="flex items-center gap-2">
           {/* Logo Placeholder */}
           <div className="flex items-center gap-2 font-bold text-xl tracking-tight text-kogas-blue dark:text-kogas-beige">
-            <img src="/kogas-logo.png" alt="KOGAS-Tech Logo" className="h-6 w-auto" />
+            <img src="/kogas-Tech-logo.png" alt="KOGAS-Tech Logo" className="h-6 w-auto" />
             <span>KOGAS-Tech</span> <span className="text-zinc-400 font-light text-base ml-1">| Choi In-nam</span>
           </div>
         </div>
@@ -26,3 +26,4 @@ export function Header() {
     </header>
   );
 }
+

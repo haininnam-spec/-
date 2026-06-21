@@ -1,4 +1,4 @@
-import { Users, Presentation, Target } from "lucide-react";
+﻿import { Users, Presentation, Target } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export function Leadership() {
@@ -8,12 +8,12 @@ export function Leadership() {
         <div className="flex flex-col md:flex-row gap-16 items-center">
           <div className="md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 dark:text-white mb-6">
-              사람이 자산이다 <br />
-              <span className="text-kogas-blue">세대를 잇는 현장형 리더십</span>
+              ?щ엺???먯궛?대떎 <br />
+              <span className="text-kogas-blue">?몃?瑜??뉖뒗 ?꾩옣??由щ뜑??/span>
             </h2>
             <p className="text-zinc-600 dark:text-zinc-400 mb-8 leading-relaxed text-lg">
-              조직의 경쟁력은 결국 사람에게서 나옵니다. 기술적 권위와 인간적 친화력을 
-              함께 갖춘 리더십이야말로 변화의 시기에 조직을 이끄는 힘이라고 믿습니다.
+              議곗쭅??寃쎌웳?μ? 寃곌뎅 ?щ엺?먭쾶???섏샃?덈떎. 湲곗닠??沅뚯쐞? ?멸컙??移쒗솕?μ쓣 
+              ?④퍡 媛뽰텣 由щ뜑??씠?쇰쭚濡?蹂?붿쓽 ?쒓린??議곗쭅???대걚???섏씠?쇨퀬 誘우뒿?덈떎.
             </p>
             
             <div className="space-y-6">
@@ -22,8 +22,8 @@ export function Leadership() {
                   <Users className="h-5 w-5 text-kogas-blue" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg mb-1">소통과 조율의 관리자</h4>
-                  <p className="text-zinc-600 dark:text-zinc-400">기계와 전기 7개 검사반을 운영하며 현장의 애로사항을 직접 듣고 수평적 조직문화를 정착시켰습니다.</p>
+                  <h4 className="font-bold text-lg mb-1">?뚰넻怨?議곗쑉??愿由ъ옄</h4>
+                  <p className="text-zinc-600 dark:text-zinc-400">湲곌퀎? ?꾧린 7媛?寃?щ컲???댁쁺?섎ŉ ?꾩옣???좊줈?ы빆??吏곸젒 ?ｊ퀬 ?섑룊??議곗쭅臾명솕瑜??뺤갑?쒖섟?듬땲??</p>
                 </div>
               </div>
               
@@ -32,8 +32,8 @@ export function Leadership() {
                   <Presentation className="h-5 w-5 text-kogas-blue" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg mb-1">문제해결 중심 멘토링</h4>
-                  <p className="text-zinc-600 dark:text-zinc-400">기술교육과 코칭을 통해 후배 직원들이 스스로 성장할 수 있는 환경을 조성합니다.</p>
+                  <h4 className="font-bold text-lg mb-1">臾몄젣?닿껐 以묒떖 硫섑넗留?/h4>
+                  <p className="text-zinc-600 dark:text-zinc-400">湲곗닠援먯쑁怨?肄붿묶???듯빐 ?꾨같 吏곸썝?ㅼ씠 ?ㅼ뒪濡??깆옣?????덈뒗 ?섍꼍??議곗꽦?⑸땲??</p>
                 </div>
               </div>
               
@@ -42,8 +42,8 @@ export function Leadership() {
                   <Target className="h-5 w-5 text-kogas-blue" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg mb-1">융합적 사고의 실천 (골프 티칭 프로)</h4>
-                  <p className="text-zinc-600 dark:text-zinc-400">학구열로 취득한 골프 티칭 프로 자격은 역학적 구조를 스윙에 대입하는 융합적 사고의 산물이며, 세대 간 소통의 매개체가 됩니다.</p>
+                  <h4 className="font-bold text-lg mb-1">?듯빀???ш퀬???ㅼ쿇 (怨⑦봽 ?곗묶 ?꾨줈)</h4>
+                  <p className="text-zinc-600 dark:text-zinc-400">?숆뎄?대줈 痍⑤뱷??怨⑦봽 ?곗묶 ?꾨줈 ?먭꺽? ??븰??援ъ“瑜??ㅼ쐷????낇븯???듯빀???ш퀬???곕Ъ?대ŉ, ?몃? 媛??뚰넻??留ㅺ컻泥닿? ?⑸땲??</p>
                 </div>
               </div>
             </div>
@@ -61,15 +61,15 @@ export function Leadership() {
                   className="w-full h-full object-cover opacity-80 mix-blend-overlay dark:mix-blend-normal dark:opacity-40 transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute bottom-4 left-4">
-                  <Badge className="bg-zinc-900/80 text-white backdrop-blur-sm border-none">메카닉 골프 (Mechanics Golf)</Badge>
+                  <Badge className="bg-zinc-900/80 text-white backdrop-blur-sm border-none">硫붿뭅??怨⑦봽 (Mechanics Golf)</Badge>
                 </div>
               </div>
 
               {/* Character Overlay */}
               <div className="relative z-20 flex flex-col items-center justify-center w-full h-full">
                 <img 
-                  src="/gas-doongi.gif" 
-                  alt="가스둥이 리더십" 
+                  src="/하트 캐릭터.png" 
+                  alt="媛?ㅻ뫁??由щ뜑?? 
                   className="w-48 md:w-64 object-contain drop-shadow-[0_20px_40px_rgba(59,130,246,0.6)] transition-transform duration-700 hover:-translate-y-4" 
                 />
               </div>
@@ -80,3 +80,5 @@ export function Leadership() {
     </section>
   );
 }
+
+

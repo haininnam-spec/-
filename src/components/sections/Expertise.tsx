@@ -1,32 +1,32 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+﻿import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Search, PenTool, Cpu, Activity } from "lucide-react";
 
 export function Expertise() {
   const skills = [
     {
-      title: "ANSYS 구조 및 유동해석 전문성",
-      description: "설비의 응력 집중과 열유체 흐름을 과학적으로 검증하여 최적의 설계를 도출합니다. 가스 저장탱크 보수공사의 PM으로서 해석 데이터를 근거로 공정을 정밀 제어하여 무사고·무결점을 달성했습니다.",
+      title: "ANSYS 援ъ“ 諛??좊룞?댁꽍 ?꾨Ц??,
+      description: "?ㅻ퉬???묐젰 吏묒쨷怨??댁쑀泥??먮쫫??怨쇳븰?곸쑝濡?寃利앺븯??理쒖쟻???ㅺ퀎瑜??꾩텧?⑸땲?? 媛????ν꺊??蹂댁닔怨듭궗??PM?쇰줈???댁꽍 ?곗씠?곕? 洹쇨굅濡?怨듭젙???뺣? ?쒖뼱?섏뿬 臾댁궗怨졖룸Т寃곗젏???ъ꽦?덉뒿?덈떎.",
       icon: <Activity className="h-6 w-6 text-kogas-blue" />,
-      tags: ["Ansys", "Fluent", "구조해석", "유동해석"]
+      tags: ["Ansys", "Fluent", "援ъ“?댁꽍", "?좊룞?댁꽍"]
     },
     {
-      title: "SolidWorks 정밀 3D 설계",
-      description: "도면상의 복잡한 기계 요소를 정밀한 3D 모델로 구현하며, 시뮬레이션을 위한 완벽한 기초 데이터를 구축합니다.",
+      title: "SolidWorks ?뺣? 3D ?ㅺ퀎",
+      description: "?꾨㈃?곸쓽 蹂듭옟??湲곌퀎 ?붿냼瑜??뺣???3D 紐⑤뜽濡?援ы쁽?섎ŉ, ?쒕??덉씠?섏쓣 ?꾪븳 ?꾨꼍??湲곗큹 ?곗씠?곕? 援ъ텞?⑸땲??",
       icon: <Cpu className="h-6 w-6 text-kogas-blue" />,
-      tags: ["SolidWorks", "3D CAD", "정밀설계"]
+      tags: ["SolidWorks", "3D CAD", "?뺣??ㅺ퀎"]
     },
     {
-      title: "비파괴검사(NDT) 정밀 진단 체계",
-      description: "침투탐상(PT), 초음파탐상(UT), 누설탐상(LT) 등 전문 자격을 바탕으로 현장의 미세한 결함까지 놓치지 않는 빈틈없는 안전관리 체계를 운영합니다.",
+      title: "鍮꾪뙆愿닿???NDT) ?뺣? 吏꾨떒 泥닿퀎",
+      description: "移⑦닾?먯긽(PT), 珥덉쓬?뚰깘??UT), ?꾩꽕?먯긽(LT) ???꾨Ц ?먭꺽??諛뷀깢?쇰줈 ?꾩옣??誘몄꽭??寃고븿源뚯? ?볦튂吏 ?딅뒗 鍮덊땲?녿뒗 ?덉쟾愿由?泥닿퀎瑜??댁쁺?⑸땲??",
       icon: <Search className="h-6 w-6 text-kogas-blue" />,
-      tags: ["PT", "UT", "LT", "산업안전"]
+      tags: ["PT", "UT", "LT", "?곗뾽?덉쟾"]
     },
     {
-      title: "기계공학 현장 실무 30년",
-      description: "서울과학기술대학교 기계공학 학사, 인하대학교 기계공학 석사를 거쳐 1996년 입사 이래 천연가스 공급설비의 유지보수를 총괄해 왔습니다.",
+      title: "湲곌퀎怨듯븰 ?꾩옣 ?ㅻТ 30??,
+      description: "?쒖슱怨쇳븰湲곗닠??숆탳 湲곌퀎怨듯븰 ?숈궗, ?명븯??숆탳 湲곌퀎怨듯븰 ?앹궗瑜?嫄곗퀜 1996???낆궗 ?대옒 泥쒖뿰媛??怨듦툒?ㅻ퉬???좎?蹂댁닔瑜?珥앷큵???붿뒿?덈떎.",
       icon: <PenTool className="h-6 w-6 text-kogas-blue" />,
-      tags: ["기계공학", "유지보수", "가스설비"]
+      tags: ["湲곌퀎怨듯븰", "?좎?蹂댁닔", "媛?ㅼ꽕鍮?]
     }
   ];
 
@@ -35,10 +35,10 @@ export function Expertise() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 relative z-10">
           <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 dark:text-white mb-4">
-            현장에서 시작해 <span className="text-kogas-blue">숫자로 증명한 신뢰</span>
+            ?꾩옣?먯꽌 ?쒖옉??<span className="text-kogas-blue">?レ옄濡?利앸챸???좊ː</span>
           </h2>
           <p className="text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto">
-            이론적 지식과 30년 현장의 감각을 결합하여 가장 안전하고 효율적인 엔지니어링 솔루션을 제공합니다.
+            ?대줎??吏?앷낵 30???꾩옣??媛먭컖??寃고빀?섏뿬 媛???덉쟾?섍퀬 ?⑥쑉?곸씤 ?붿??덉뼱留??붾（?섏쓣 ?쒓났?⑸땲??
           </p>
         </div>
 
@@ -47,8 +47,8 @@ export function Expertise() {
           <div className="hidden lg:flex w-1/3 justify-center relative">
             <div className="absolute inset-0 bg-kogas-beige/20 rounded-full blur-3xl animate-pulse" />
             <img 
-              src="/gas-doongi-cool.png" 
-              alt="가스둥이 전문성" 
+              src="/설계 캐릭터.png" 
+              alt="媛?ㅻ뫁???꾨Ц?? 
               className="w-full max-w-md object-contain z-10 drop-shadow-xl" 
             />
           </div>
@@ -85,3 +85,5 @@ export function Expertise() {
     </section>
   );
 }
+
+

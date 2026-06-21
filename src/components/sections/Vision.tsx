@@ -1,23 +1,23 @@
-import { CheckCircle2, TrendingUp, Lightbulb } from "lucide-react";
+﻿import { CheckCircle2, TrendingUp, Lightbulb } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export function Vision() {
   const visions = [
     {
-      title: "안전의 상향평준화",
-      description: "예방 중심의 정비체계와 위험성평가 고도화를 통해 무사고·무재해 사업장을 구축하겠습니다.",
+      title: "?덉쟾???곹뼢?됱???,
+      description: "?덈갑 以묒떖???뺣퉬泥닿퀎? ?꾪뿕?깊룊媛 怨좊룄?붾? ?듯빐 臾댁궗怨졖룸Т?ы빐 ?ъ뾽?μ쓣 援ъ텞?섍쿋?듬땲??",
       icon: <CheckCircle2 className="h-8 w-8 text-kogas-blue" />,
       delay: "0ms"
     },
     {
-      title: "정비체계의 디지털화",
-      description: "투입인력관리 시스템을 전사 표준모델로 확장하고, 설비예지보전(Predictive Maintenance) 등 데이터 기반 정비체계를 고도화하겠습니다.",
+      title: "?뺣퉬泥닿퀎???붿??명솕",
+      description: "?ъ엯?몃젰愿由??쒖뒪?쒖쓣 ?꾩궗 ?쒖?紐⑤뜽濡??뺤옣?섍퀬, ?ㅻ퉬?덉?蹂댁쟾(Predictive Maintenance) ???곗씠??湲곕컲 ?뺣퉬泥닿퀎瑜?怨좊룄?뷀븯寃좎뒿?덈떎.",
       icon: <TrendingUp className="h-8 w-8 text-kogas-blue" />,
       delay: "100ms"
     },
     {
-      title: "새로운 비즈니스 창출",
-      description: "기술료 데이터를 자산화하여 프리미엄 기술서비스 사업화를 추진하고, 한국가스기술공사가 AI 기반 에너지 기술기업으로 성장하는 데 앞장서겠습니다.",
+      title: "?덈줈??鍮꾩쫰?덉뒪 李쎌텧",
+      description: "湲곗닠猷??곗씠?곕? ?먯궛?뷀븯???꾨━誘몄뾼 湲곗닠?쒕퉬???ъ뾽?붾? 異붿쭊?섍퀬, ?쒓뎅媛?ㅺ린?좉났?ш? AI 湲곕컲 ?먮꼫吏 湲곗닠湲곗뾽?쇰줈 ?깆옣?섎뒗 ???욎옣?쒓쿋?듬땲??",
       icon: <Lightbulb className="h-8 w-8 text-kogas-blue" />,
       delay: "200ms"
     }
@@ -32,10 +32,10 @@ export function Vision() {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            관리자로서의 <span className="text-kogas-beige">3대 실천과제</span>
+            愿由ъ옄濡쒖꽌??<span className="text-kogas-beige">3? ?ㅼ쿇怨쇱젣</span>
           </h2>
           <p className="text-zinc-400 max-w-2xl mx-auto text-lg">
-            지사 및 본사 경영진으로서 한국가스기술공사의 다음 성장을 만들어가겠습니다.
+            吏??諛?蹂몄궗 寃쎌쁺吏꾩쑝濡쒖꽌 ?쒓뎅媛?ㅺ린?좉났?ъ쓽 ?ㅼ쓬 ?깆옣??留뚮뱾?닿?寃좎뒿?덈떎.
           </p>
         </div>
 
@@ -61,16 +61,16 @@ export function Vision() {
           <div className="w-32 h-32 md:w-48 md:h-48 relative flex-shrink-0">
             <div className="absolute inset-0 bg-kogas-beige/10 rounded-full blur-xl animate-pulse" />
             <img 
-              src="/gas-doongi-cool.png" 
-              alt="비전을 제시하는 가스둥이" 
+              src="/안전제일 캐릭터.png" 
+              alt="鍮꾩쟾???쒖떆?섎뒗 媛?ㅻ뫁?? 
               className="relative z-10 w-full h-full object-contain drop-shadow-[0_10px_20px_rgba(255,255,255,0.1)]" 
             />
           </div>
           <div className="text-center md:text-left">
             <p className="text-xl md:text-2xl font-light italic text-zinc-300 max-w-3xl leading-relaxed">
-              "현장에서 쌓아온 30년의 기술적 전문성과, 문제를 스스로 코드로 풀어낸 실행력, 
-              그리고 사람을 키우는 리더십이 만나는 지점에서 <br className="hidden md:block"/>
-              <strong className="text-kogas-beige font-bold text-2xl md:text-3xl inline-block mt-2">다음 성장을 만들겠습니다.</strong>"
+              "?꾩옣?먯꽌 ?볦븘??30?꾩쓽 湲곗닠???꾨Ц?깃낵, 臾몄젣瑜??ㅼ뒪濡?肄붾뱶濡???대궦 ?ㅽ뻾?? 
+              洹몃━怨??щ엺???ㅼ슦??由щ뜑??씠 留뚮굹??吏?먯뿉??<br className="hidden md:block"/>
+              <strong className="text-kogas-beige font-bold text-2xl md:text-3xl inline-block mt-2">?ㅼ쓬 ?깆옣??留뚮뱾寃좎뒿?덈떎.</strong>"
             </p>
           </div>
         </div>
@@ -78,3 +78,5 @@ export function Vision() {
     </section>
   );
 }
+
+
